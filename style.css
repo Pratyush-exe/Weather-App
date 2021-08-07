@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+    background-image: url(images/minor-planets.jpg);
+}
+
+.search-icon {
+    filter: invert();
+    height: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.search-container {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    display: flex;
+    width: 300px;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.city-search {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    color: white;
+    margin-left: 10px;
+    width: 240px;
+}
+
+.city-search:focus {
+    outline: none;
+}
+
+#SearchsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#info {
+    color: white;
+    font-family: 'M PLUS Rounded 1c';
+    margin-top: 20vh;
+    margin-left: 50px;
+}
+
+#temp-holder {
+    display: flex;
+    align-items: center;
+    height: 170px;
+}
+
+#temp {
+    font-size: 150px;
+    letter-spacing: -5px;
+}
+
+#city {
+    font-size: 30px;
+    margin: 0px;
+}
+
+#gen-decp {
+    margin: 2px;
+}
+
+#detailed {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+#status {
+    color: #024f02;
+    padding-right: 10px;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="SearchsContainer">
+            <div class="search-container" id="search-container1">
+                <input class="city-search" id="city-search1" placeholder="Enter City Name">
+                <img src="images/searchIcon.png" class="search-icon" id="search-icon1">
+            </div>
+            <div class="search-container" id="search-container2">
+                <input class="city-search" id="city-search2" placeholder="Latitide, Longitude">
+                <img src="images/searchIcon.png" class="search-icon" id="search-icon2">
+            </div>
+            <p id="status">Showing your location.</p>
+        </div>
+    </header>
+    <div id="info">
+        <p id=gen-decp>Mostly Sunny</p>
+        <p id="city">My City, Country</p>
+        <div id="temp-holder">
+            <span id="temp">70°</span>
+            <div id="detailed">
+                <p id="feels-like">FEELS LIKE: 70°</p>
+                <p id="wind">WIND: 60 MPH</p>
+                <p id="humidity">HUMIDITY: 78%</p>
+            </div>
+        </div>
+        <p>Temperatures in Fahrenheit</p>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
