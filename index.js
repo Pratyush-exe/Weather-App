@@ -23,7 +23,7 @@ document.getElementById('search-icon2').addEventListener('click', function() {
 async function getData(lat, long, city, isCoor) {
     let response;
 
-    if(isCoor){
+    if(isCoor){ 
         response = await fetch(link + "lat=" + lat.toString() + "&" + "lon=" + long.toString() + "&" + "appid=" + api);
     }
     else {
