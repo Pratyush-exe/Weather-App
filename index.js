@@ -1,4 +1,4 @@
-let link = "http://api.openweathermap.org/data/2.5/weather?";
+let link = "https://api.openweathermap.org/data/2.5/weather?";
 let api = "88f08e581b02b92556fe1a1213bc18e4";
 
 let genDecp = document.getElementById('gen-decp');
